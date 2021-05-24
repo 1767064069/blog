@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head >
+<!--    th:replace="_fragments :: head(~{::title})"-->
+    <title>hsp | error</title>
+</head>
+
+<body id="home" class="m-sticky-site">
+<div class="ui inverted masthead centered segment">
+    <div class="ui page grid">
+        <div class="column">
+            <!-- Nav bar-->
+<!--            th:text="*{content}"-->
+            <nav  ></nav>
+
+            <!-- space -->
+            <div class="m-padded-tb-small"></div>
+            <!--error-->
+            <h2 class="ui center aligned header">Error</h2>
+            <br>
+            <h3 class="ui center aligned header">Hummmm an error happens...</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!--divider-->
+            <div class="m-padded-tb-small"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Footer -->
+<main class="m-sticky-site-content"></main>
+<footer th:replace="_fragments :: footer"></footer>
+<!-- JavaScript -->
+<th:block th:replace="_fragments :: script"></th:block>
+</body>
+</html>
